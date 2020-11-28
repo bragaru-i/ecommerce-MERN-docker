@@ -18,8 +18,7 @@ mongoose
   });
 
 const port = process.env.PORT || 5000;
-console.log(process.env.NODE_ENV);
-console.log(process.env);
+
 const server = app.listen(port, () => {
   console.log(`  🔆🔆🔆    Server runs on port: ${port}   🔆🔆🔆`);
   console.log(`   🛃🛃🛃   RUNNING ON MODE: ${process.env.NODE_ENV}    🛃🛃🛃`);
